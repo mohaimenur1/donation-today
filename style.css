@@ -105,6 +105,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .scheme-item {
@@ -135,4 +136,50 @@ button {
 
 #shelter-item {
   background-color: #f5cbac;
+}
+
+.donation-volentier {
+  width: 82%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.volentier-details {
+  width: 50%;
+  padding: 20px;
+  background-color: c94bc7;
+}
+
+#volunteer-color {
+  color: #ffc133;
+}
+
+.volentier-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #c94bc7; */
+  /* background-color: #ffc133; */
+  background: rgba(255, 134, 5, 0.98);
+}
+
+.volentier-form input {
+  /* padding: 20px 270px; */
+  padding: 10px 30px;
+  margin: 30px;
+  text-align: start;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.donation-volentier img {
+  height: 350px;
+  width: 650px;
 }
