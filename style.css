@@ -64,14 +64,17 @@ button {
   margin-bottom: 35px;
 }
 .amount-item {
-  height: 80px;
-  width: 100px;
+  height: 100px;
+  width: 150px;
   background-color: gainsboro;
   margin: 10px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
+  color: #203239;
+  font-size: 25px;
 }
 
 #default-amount-select {
@@ -89,11 +92,13 @@ button {
   border-left: none;
   border-right: none;
   margin-bottom: 25px;
+  font-size: 20px;
 }
 
 #right-now {
   background-color: #c94bc7;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .donation-scheme {
@@ -175,6 +180,7 @@ button {
 
 #register-button {
   background-color: #be4057;
+  font-size: 20px;
 }
 
 .volentier-form input {
@@ -186,6 +192,7 @@ button {
   border: none;
   border-radius: 10px;
   width: 50%;
+  font-size: 20px;
 }
 
 .donation-volentier img {
@@ -218,11 +225,13 @@ button {
   background-color: #eaf6f6;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  font-size: 20px;
 }
 
 .subscription button {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+  font-size: 20px;
 }
 
 #subscription-color {
