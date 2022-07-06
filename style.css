@@ -154,7 +154,7 @@ button {
 }
 
 #volunteer-color {
-  color: #ffc133;
+  color: #be4057;
 }
 
 .volentier-form {
@@ -163,9 +163,18 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #203239;
   /* background-color: #c94bc7; */
   /* background-color: #ffc133; */
-  background: rgba(255, 134, 5, 0.98);
+  /* background: rgba(255, 134, 5, 0.98); */
+}
+
+.volentier-form h1 {
+  color: #be4057;
+}
+
+#register-button {
+  background-color: #be4057;
 }
 
 .volentier-form input {
@@ -182,4 +191,60 @@ button {
 .donation-volentier img {
   height: 350px;
   width: 650px;
+}
+
+.notify-section {
+  margin-top: 150px;
+}
+
+.notify-text {
+  text-align: center;
+}
+
+.subscription {
+  background-color: #c7f1c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.subscription input {
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  background-color: #eaf6f6;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.subscription button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#subscription-color {
+  background-color: #be4057;
+}
+
+footer {
+  background-color: #203239;
+  padding: 40px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+footer p {
+  color: white;
+}
+
+footer h2 {
+  color: white;
+}
+
+#donation-color {
+  font-size: 40px;
+  color: #be4057;
 }
