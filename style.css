@@ -13,12 +13,18 @@ p {
   color: grey;
 }
 
+input {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 button {
   padding: 15px 25px;
   border-radius: 5px;
   border: none;
   color: white;
   font-weight: bold;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .main-header {
@@ -75,6 +81,7 @@ button {
   font-weight: bold;
   color: #203239;
   font-size: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #default-amount-select {
@@ -124,6 +131,7 @@ button {
   padding: 15px;
   margin: 20px;
   border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .scheme-item img {
@@ -216,6 +224,7 @@ button {
   padding: 60px;
   margin: 0 auto;
   width: 60%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .subscription input {
