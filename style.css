@@ -200,6 +200,7 @@ button {
 .volentier-details img {
   height: 350px;
   width: 650px;
+  margin-right: 10px;
 }
 
 .notify-section {
