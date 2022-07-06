@@ -98,14 +98,41 @@ button {
 
 .donation-scheme {
   text-align: center;
+  margin-top: 70px;
 }
 
 .scheme-items {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.scheme-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  background-color: aquamarine;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 7px;
 }
 
 .scheme-item img {
   height: 60px;
   width: 60px;
+}
+
+#food-item {
+  background-color: #c7f1c7;
+}
+
+#medicine-item {
+  background-color: #f5c7c7;
+}
+
+#shelter-item {
+  background-color: #f5cbac;
 }
